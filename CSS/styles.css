@@ -184,9 +184,10 @@ hr{
     color: #3e3f3f;
     padding-top: 20px;
 }
-#current button{
+#current #btn{
+    display: inline-block;
     margin: 30px auto;
-    padding: 15px 80px;
+    padding: 15px 40px;
     background-color: #256D85;
     color: #06283D;
     border-style: none;
@@ -194,8 +195,13 @@ hr{
     font-size: 20px;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
+    width: 20vw;
 }
-#current button:hover{
+#current #btn a{
+    color: white;
+    text-decoration: none;
+}
+#current #btn:hover{
     background-color: #3BACB6;
     
 }
